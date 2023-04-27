@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+main {
+    background: linear-gradient(#eef2f3, #83a4d4);
+}
+
+.equipo {
+    color: #2d2d2d;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.nombres {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.nombreAnima {
+    color: #2d2d2d;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 5px #888888;
+    transition: background-color 0.3s ease;
+}
+
+.nombreAnima:hover {
+    background-color: #2d2d2d;
+    color: #ffffff;
+    transition: background-color 0.3s ease;
+}
+
+header {
+    padding: 0 0 40px 0;
+}
+
+--------------------------------------
+.participantes {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px;
+}
+
+.participantes img {
+    width: 300px;
+}
+
+ul {
+    list-style: none;
+    
+}
+
+.participantes li {
+	
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border-color: #000000;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 20px;
+    margin: 30px 0 30px 35%;
+}
+
+.participantes li:hover {
+	border-color: #C78C19;
+}
+
+.participantes li:hover h2 {
+	font-size: 33px;
+}
+
+.miembros {
+    text-align: center;
+}
+
+footer {
+	text-align: center;
+	background: url(img/bg.jpg);
+	padding: 40px;
+}
+
+footer img {
+    width: 150px;
+}
+
+.copyrigth {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px;
+}
